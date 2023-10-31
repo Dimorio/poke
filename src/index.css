@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.cdnfonts.com/css/pokemon-solid");
+
+.logo {
+  font-family: "Pokemon Solid", sans-serif;
+  color: white;
+}
+
+.vline {
+  border-left: 2px solid grey;
+  height: 70px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #1f2122;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+.col-12 {
+  flex: 0 0 auto;
+}
+
+.main-nav .logo {
+  border-right: 3px solid #27292a;
+  margin-right: 5%;
+  flex-basis: 15%;
+}
+
+.head-text {
+  text-align: right;
+  font-family: "Poppins", sans-serif;
+}
+.head-text h6 {
+  font-size: 25px;
+}
+.head-text h4 {
+  font-weight: 700;
+  color: white;
+}
+
+.header-section {
+  font-family: "Poppins", sans-serif;
+}
+.header-section em {
+  font-weight: 700;
+}
+
+.item img {
+  width: 100%;
+  width: 250px;
+  height: auto;
+}
+
+.img-1 {
+  border-right: 3px solid #1f2122;
+  z-index: 999;
+}
+
+.col-cl {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.col-cal {
+  font-family: "Poppins", sans-serif;
+}
