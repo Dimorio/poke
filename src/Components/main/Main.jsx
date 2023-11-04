@@ -9,10 +9,7 @@ export default function Main() {
         <div className="row flex flex-wrap">
           <div className="lg-col w-full max-w-full flex-shrink-0">
             <div className="page-content mt-[110px] bg-[#27292a] p-[60px] rounded-[23px]">
-              <div
-                style={{ backgroundImage: "url('./images/doko.jpg')" }}
-                className="main-banner bg-[url('./images/doko.jpg')]  bg-cover bg-center min-h-[380px] rounded-[23px] py-[80px] px-[60px] sm:bg-cover sm:bg-[url('./images/doko.jpg')] md:bg-[url('./images/poko.jpg')] lg:bg-[url('./images/poko.jpg')] md:bg-bottom  lg:bg-bottom  "
-              >
+              <div className="main-banner bg-doko  bg-cover bg-center min-h-[380px] rounded-[23px] py-[80px] px-[60px] sm:bg-cover sm:bg-doko md:bg-poko lg:bg-poko md:bg-bottom  lg:bg-bottom  ">
                 <div className="row flex flex-wrap">
                   <div className=" lg-lg-col  w-full max-w-full flex-shrink-0 ">
                     <div className=" head-text text-center sm:text-center md:text-center lg:text-right xl:text-right">
