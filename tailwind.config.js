@@ -5,6 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         poko: "url('./images/poko.jpg')",
+        doko: "url('./images/doko.jpg')",
       },
     },
   },

@@ -24,8 +24,8 @@ export default function Popular() {
       <div className="popular  mt-[60px] p-[30px] bg-[#1f2122] rounded-[23px]">
         <div className="row flex flex-wrap">
           <div className="lg-lag w-full max-w-full">
-            <div className="header-section">
-              <h3 className="text-[#fff] text-[32px] no-underline mb-[30px]">
+            <div className="header-section text-center sm:text-center lg:text-left ">
+              <h3 className="text-[#fff] text-[20px] no-underline mb-[30px] sm:text-[30px] md:text-[32px] lg:text-[32px]  ">
                 Popular
                 <em className="not-italic text-[#5800b3] "> Pokemons</em>
               </h3>
@@ -37,7 +37,7 @@ export default function Popular() {
                       return (
                         <div key={index} className="lg-col px-[10px]">
                           <Link to={`/pokemon/${poke.name}`}>
-                            <div className="item rounded-[25px] px-[15px] py-[30px] bg-[#27292a] mb-[30px]">
+                            <div className="item rounded-[25px] px-[15px] py-[30px] bg-[#27292a] mb-[30px] text-center sm:text-center lg:text-left ">
                               <img
                                 className="w-full rounded-[25px] overflow-hidden"
                                 src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${

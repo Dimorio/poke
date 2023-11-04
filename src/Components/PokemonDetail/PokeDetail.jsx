@@ -13,7 +13,6 @@ export default function PokeDetail() {
         const response = await fetch("https://pokeapi.co/api/v2/pokemon/" + id);
         const result = await response.json();
         setPokemon(result);
-        console.log(result);
       } catch (error) {
         console.error("error nigga:", error);
       }
@@ -23,7 +22,7 @@ export default function PokeDetail() {
   return (
     <>
       <Header />
-      <div className="col-cal">
+      <div className="col-cal container m-auto px-[15px]">
         {pokemon && (
           <div className="flex justify-center items-center min-h-[100vh] flex-col">
             <span className="col-cl">
